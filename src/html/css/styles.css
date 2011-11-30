@@ -15,6 +15,8 @@
 }
 body{
   font-family:'MuseoSans500';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   color:#636363;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -204,8 +206,11 @@ body.home .content-bg {
   padding-top:0px;
   padding-bottom:0px;
 }
-#ternary img.webfwd {
-  margin:15px 0 0;
+#ternary .press img {
+  margin:0 0 10px;
+  display:block;
+}
+#ternary .press img.webfwd {
   border-radius:10px;
 }
 

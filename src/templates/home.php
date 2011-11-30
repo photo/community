@@ -59,12 +59,8 @@
   </div>
   <div class="span-one-third">
     <div>
-      <h2>Beautiful themes</h2>
-      <ul class="media-grid unstyled themes">
-        <li class="span-half"><img src="img/90x90.gif"</li>
-        <li class="span-half"><img src="img/90x90.gif"</li>
-      </ul>
-      <a href="">View all themes <span class="raquo">&raquo;</span></a>
+      <h2>Robert Scoble interviews Jaisen</h2>
+      <iframe width="275" height="150" src="http://www.youtube.com/embed/nEDnms98T-Q" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -102,11 +98,13 @@
       <a href="https://github.com/openphoto/frontend" target="_blank" rel="external">Git on over to Github <span class="raquo">&raquo;</span></a>
     </div>
   </div>
-  <div class="span-one-third">
+  <div class="span-one-third press">
     <div>
-      <h2>We want you!</h2>
-      Programmers, front-end developers, designers - help make OpenPhoto the best, most flexible photo-sharing software around. <a href="">See how you can help <span class="raquo">&raquo;</span></a>
-      <img src="img/webfwd.png" class="webfwd">
+      <h2>Press and support</h2>
+      <a href="http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/" title="OpenPhoto on Techcrunch" rel="external" target="_blank"><img src="/img/techcrunch-logo.jpg"></a>
+      <a href="http://www.readwriteweb.com/archives/save_your_photos_to_amazon_or_dropbox_with_app_pla.php" title="OpenPhoto on Read Write Web" rel="external" target="_blank"><img src="/img/read-write-web-logo.jpg"></a>
+      <a href="http://thenextweb.com/dd/2011/07/16/creating-a-portable-web-when-your-data-is-truly-yours/" title="OpenPhoto on The Next Web"rel="external" target="_blank"><img src="/img/the-next-web-logo.png"></a>
+      <a href="http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows" title="The OpenPhoto on Mozilla WebFWD" rel="external" target="_blank"><img src="img/webfwd.png" class="webfwd"></a>
     </div>
   </div>
 </div>
