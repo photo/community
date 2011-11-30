@@ -38,8 +38,8 @@
   </div>
   <div class="span11 doc">
     <ul class="breadcrumb">
-      <li><a href="#">Home</a> <span class="raquo divider">&raquo;</span></li>
-      <li><a href="#">Documentation</a> <span class="raquo divider">&raquo;</span></li>
+      <li><a href="/">Home</a> <span class="raquo divider">&raquo;</span></li>
+      <li><a href="/documentation">Documentation</a> <span class="raquo divider">&raquo;</span></li>
       <li class="active"><?php echo $name; ?></li>
     </ul>
     <?php echo $documentation; ?>
