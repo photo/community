@@ -1,0 +1,3 @@
+[submodule "src/libraries/external/openphoto-frontend"]
+	path = src/libraries/external/openphoto-frontend
+	url = git://github.com/openphoto/frontend.git

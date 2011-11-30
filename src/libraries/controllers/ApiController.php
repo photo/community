@@ -15,7 +15,7 @@ class ApiController extends BaseController
 
   public function documentationApi($api)
   {
-    $documentationFile = sprintf('%s/external/openphoto/documentation/api/%s.markdown', dirname(dirname(__FILE__)), $api);
+    $documentationFile = sprintf('%s/external/openphoto-frontend/documentation/api/%s.markdown', dirname(dirname(__FILE__)), $api);
     $params = array('name' => $api, 'documentation' => Markdown(file_get_contents($documentationFile)));
     $content = getTemplate()->get('documentation.php', $params);
     return $this->envelope($content, 'documentation');
@@ -23,7 +23,7 @@ class ApiController extends BaseController
 
   public function documentationGuide($api)
   {
-    $documentationFile = sprintf('%s/external/openphoto/documentation/guides/%s.markdown', dirname(dirname(__FILE__)), $api);
+    $documentationFile = sprintf('%s/external/openphoto-frontend/documentation/guides/%s.markdown', dirname(dirname(__FILE__)), $api);
     $params = array('name' => $api, 'documentation' => Markdown(file_get_contents($documentationFile)));
     $content = getTemplate()->get('documentation.php', $params);
     return $this->envelope($content, 'documentation');
