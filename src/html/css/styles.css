@@ -44,6 +44,15 @@ code {
 pre {
   background-color:#fff;
 }
+.btn .primary {
+  font-weight:bold;
+  font-size:16px;
+}
+.btn .secondary {
+  font-weight:normal;
+  font-style:italic;
+  font-size:10px;
+}
 .raquo{
   position:relative;
   font-size:18px;
@@ -288,6 +297,14 @@ body.home .content-bg {
 }
 .why-icons {
   margin-right:5px;
+}
+.get-started-block {
+  border-bottom: solid 1px #ddd;
+  margin-bottom:10px;
+  padding-bottom:20px;
+}
+.get-started-block > div {
+  margin-bottom:10px;
 }
 .footer-bg {
   background-color:#555;
