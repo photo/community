@@ -21,7 +21,7 @@
 
   <div class="span8">
     If you're a nerd who has your own server or hosting account then we've got you hooked up.
-    We've got deailed guides for he following systems and a fancy one line installer.
+    We've got deailed guides for the following systems and a fancy one line installer.
     <p>
       <ul>
         <li><a href="/documentation/guide/InstallationUbuntuApache">Ubuntu and Apache</a></li>
