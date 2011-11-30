@@ -1,0 +1,299 @@
+@font-face {
+  font-family:'League Gothic';
+  src:url('/fonts/League_Gothic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'MuseoSans500';
+    src: url('/fonts/MuseoSans_500-webfont.eot');
+    src: url('/fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/MuseoSans_500-webfont.woff') format('woff'),
+         url('/fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('/fonts/MuseoSans_500-webfont.svg#MuseoSans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+  font-family:'MuseoSans500';
+  color:#636363;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family:'League Gothic';
+  text-shadow: #fff 2px 1px 1px;
+  font-weight:normal;
+}
+h1 {
+  font-size:40px;
+  color:#f05822;
+}
+h2, h3, h4, h5, h6 {
+  color:#555;
+}
+h1, h2 {
+  text-transform:uppercase;
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color:#6c934e;
+}
+code {
+  background-color:inherit;
+}
+pre {
+  background-color:#fff;
+}
+.raquo{
+  position:relative;
+  font-size:18px;
+  top:2px;
+}
+.lower {
+  text-transform:lowercase;
+}
+.footnote {
+  font-size:11px;
+  color:#bbb;
+}
+.social .footnote {
+  margin:8px 0 0 0;
+}
+table.commits {
+  margin-bottom:5px;
+}
+table.commits td {
+  border:0;
+}
+
+.header-bg {
+  background-color:#fff;
+  border-bottom:solid 1px #ddd;
+  height:95px;
+}
+#header {
+  line-height:95px;
+  text-align:center;
+}
+#header a {
+  color:inherit;
+}
+body.overview #header a.overview, body.documentation #header a.documentation, body.community #header a.community, body.contribute #header a.contribute {
+  font-weight:bold;
+  color:#e8270b;
+}
+.content-bg {
+  background:url("/img/pattern-bg.png");
+}
+body.home .content-bg {
+  background:url("/img/content-home-bg.png") repeat-x;
+}
+#content>h1{
+  margin-top:10px;
+}
+#header .logo {
+  height:75px;
+  width:181px;
+  margin:3px 0 0 60px;
+  background:url("/img/openphoto-logo.png") no-repeat 0 15px;
+  cursor:pointer;
+}
+#header .logo a {
+  display:block;
+  height:75px;
+  width:181px;
+}
+#header .get-started a {
+  background-color:#f5b41c;
+  color:#fff;
+  border-radius:6px;
+  padding;3px;
+  height:30px;
+  line-height:30px;
+  display:block;
+  margin:33px 0 0;
+}
+
+#headline>div {
+  height:265px;
+  background:url("/img/headline-tags-bg.png") no-repeat right;
+  background-offset:1px 1px;
+}
+#headline>div.second {
+  background:url("/img/headline-os-bg.png") no-repeat right;
+}
+#headline>div.third {
+  background:url("/img/headline-api-bg.png") no-repeat right;
+}
+#headline ul.links {
+  margin:40px 0 0 50px;
+}
+#headline ul.links li {
+  width:216px;
+  height:41px;
+  text-align:right;
+  line-height:45px;
+  padding-right:30px;
+  margin:0 0 3px 0;
+  text-shadow: #fff 2px 1px 1px;
+  background:url("/img/headline-inactive.png");
+  font-size:16px;
+}
+#headline ul.links li a {
+  text-decoration:none;
+  color:#c3c3c3;
+}
+#headline .first li.first, #headline .second li.second, #headline .third li.third {
+  background:url("/img/headline-active.png");
+}
+#headline .first li.first a, #headline .second li.second a, #headline .third li.third a {
+  color:#555;
+}
+#headline .get-started {
+  display:block;
+  float:right;
+  margin:10px 0 0;
+  border-radius:8px;
+  background-color:#f5b41c;
+  padding:10px 18px;
+  color:#fff;
+  font-family:'League Gothic';
+  font-size:24px;
+  text-shadow: #d8930b 2px 1px 1px;
+  text-transform:uppercase;
+}
+#headline .message {
+  font-size:18px;
+  line-height:28px;
+  margin-top:45px;
+}
+#headline .message .first, #headline .message .second, #headline .message .third {
+  position:absolute;
+}
+#headline .message .second, #headline .message .third {
+  display:none;
+}
+#headline .message h1 {
+}
+
+#secondary {
+  padding:15px 0;
+}
+#secondary>div>div, #ternary>div>div {
+  padding:0 20px;
+}
+#secondary ul.themes {
+  margin:10px 0;
+}
+#secondary ul.themes li {
+  margin-right:20px;
+}
+#secondary ul.themes li a {
+  border:0;
+  padding:0;
+}
+
+#ternary {
+  padding:15px 0;
+}
+#ternary h2 {
+  text-shadow: #fff 2px 1px 1px;
+}
+#ternary ul.forum li {
+  margin-bottom:3px;
+}
+#ternary table.commits tr td {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+#ternary img.webfwd {
+  margin:15px 0 0;
+  border-radius:10px;
+}
+
+#docs hr {
+  margin:10px 0;
+  height:1px;
+  border-bottom:solid 1px #e3e3e3;
+}
+#docs .toc h1 {
+  color:#0083b3;
+  font-size:22px;
+  font-weight:normal;
+}
+#docs .toc dl {
+  padding-right:20px;
+  border-right:solid 1px #e3e3e3;
+}
+#docs .toc dl dt, #docs .toc dl dd {
+  padding:2px 0 2px 10px;
+}
+#docs .toc dl dt.active, #docs .toc dl dd.active {
+  background-color:#e3e3e3;
+  border-radius:5px;
+}
+#docs .toc dl dt {
+  font-weight:normal;
+}
+#docs .toc dl dd {
+  margin-left:15px;
+  font-size:11px;
+}
+#docs .doc h2, #docs .doc h3, #docs .doc h4, #docs .doc h5, #docs .doc h6 {
+  text-transform:none;
+  font-family: 'MuseoSans500';
+  font-weight:normal;
+}
+#docs .doc h2, #docs .doc h3 {
+  /*color:#9e9e9e;*/
+}
+#docs .doc h4, #docs .doc h5, #docs .doc h6 {
+  /*color:#636363;*/
+  color:#9e9e9e;
+}
+#docs .doc h5, #docs .doc h6 {
+  text-transform:uppercase;
+}
+#docs .doc h1 {
+  font-weight:normal;
+}
+#docs .doc h2 {
+  font-size:18px;
+}
+#docs .doc h3 {
+  font-size:16px;
+}
+#docs .doc h4 {
+  font-size:14px;
+}
+#docs .doc h5 {
+  font-size:20px;
+  font-family:'League Gothic';
+}
+#docs .doc h6 {
+  font-size:14px;
+  text-transform:uppercase;
+}
+#docs .doc ul.breadcrumb a:link {
+  color:#aaa;
+}
+#docs .doc ul.breadcrumb {
+  padding-left:0;
+  font-size:11px;
+  border:0;
+  background:inherit;
+}
+.why-icons {
+  margin-right:5px;
+}
+.footer-bg {
+  background-color:#555;
+}
+.footer-bg #footer {
+  margin:20px 0;
+  font-size:12px;
+}
+.footer-bg #footer, .footer-bg #footer a:link, .footer-bg #footer a:visited {
+  color:#fff;
+}
+.footer-bg #footer a {
+  text-decoration:underline;
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>OpenPhoto</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/prettify.css">
+
+    <!-- Le fav and touch icons -->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row" id="header">
+        <div class="span4 logo"></div>
+        <div class="span2 offset2"><a href="index.html">Overview</a></div>
+        <div class="span2"><a href="docs.html">Documentation</a></div>
+        <div class="span2"><a href="">Community</a></div>
+        <div class="span2"><a href="">Contribute</a></div>
+        <div class="span2 get-started"><a href="">Get Started</a></div>
+      </div>
+      <div class="row" id="docs">
+        <div class="span4 toc">
+          <h1>Documentation</h1>
+          <dl>
+            <dt><a href="">Installation</a></dt>
+              <dd><a href="">Ubuntu and Apache</a></dd>
+            <dt><a href="">Photo API</a></dt>
+              <dd class="active"><a href="list.html">GET /photos/list.json</a></dd>
+              <dd><a href="">GET /photo/:id/view.json</a></dd>
+            <dt><a href="">Tag API</a></dt>
+              <dd><a href="">GET /tags/list.json</a></dd>
+              <dd><a href="">GET /tag/:id/view.json</a></dd>
+          </dl>
+        </div>
+        <div class="span11 doc">
+          <ul class="breadcrumb">
+            <li><a href="#">Home</a> <span class="raquo divider">&raquo;</span></li>
+            <li><a href="#">Documentation</a> <span class="raquo divider">&raquo;</span></li>
+            <li class="active">Installation</li>
+          </ul>
+
+          <h1>GET <span class="lower">/photos/list.json</span> (Get a list of photos)</h1>
+
+          <ol>
+            <li><a href="#purpose">Purpose</a></li>
+            <li><a href="#endpoint">Endpoint</a></li>
+            <li><a href="#parameters">Parameters</a></li>
+            <li>
+              <a href="#examples">Examples</a>
+              <ul>
+                <li><a href="#example-cli">Command line</a></li>
+                <li><a href="#example-php">PHP</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#response">Response</a>
+              <ul>
+                <li><a href="#sample">Sample</a></li>
+              </ul>
+            </li>
+          </ol>
+          <a name="purpose"></a>
+          <h2>Purpose of the Get Photos API</h2>
+
+          <p>Use this API to get a set of photos for a user.</p>
+
+          <p><em>NOTE:</em> Always pass in the <code>returnSizes</code> parameter for sizes you plan on using. It's the only way to guarantee that a URL for that size will be present in the response. See [Photo Generation][photogeneration] for details.</p>
+
+          <hr>
+
+          <a name="endpoint"></a>
+          <h2>Endpoint</h2>
+
+          <p><em>Authentication: optional</em></p>
+
+          <pre class="prettyprint">GET /photos.json</pre>
+
+          <a name="parameters"></a>
+          <h2>Parameters</h2>
+
+          <table class="bordered-table">
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Default</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+            <tr>
+              <td>returnSizes</td>
+              <td>No</td>
+              <td></td>
+              <td>The photo sizes you'd like in the response. Specify every size you plan on using. [Docs for this parameter][ReturnSizes]</td>
+              <td><code>300x300,250x400xCR</code></td>
+            </tr>
+            <tr>
+              <td>pageSize</td>
+              <td>No</td>
+              <td>25</td>
+              <td>Number of photos to return per request.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>page</td>
+              <td>No</td>
+              <td>1</td>
+              <td>Page number when browsing through photos. Starts at 1.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>tags</td>
+              <td>No</td>
+              <td></td>
+              <td>A comma delimited string of strings.</td>
+              <td><code>dog,cat</code></td>
+            </tr>
+          </table>
+
+          <hr>
+
+          <a name="examples"></a>
+          <h2>Examples</h2>
+
+          <a name="example-cli"></a>
+          <h3>Command Line (using [openphoto-php][openphoto-php])</h3>
+
+          <pre class="prettyprint bsh">./openphoto -p -h current.openphoto.me -e /photos/list.json -F 'tags=sunnyvale'</pre>
+
+          <a name="example-php"></a>
+          <h3>PHP (using [openphoto-php][openphoto-php])</h3>
+
+          <pre class="prettyprint php">$client = new OpenPhotoOAuth($host, $consumerKey, $consumerSecret, $oauthToken, $oauthTokenSecret);
+$response = $client->get("/photos/list.json", array('tags' => 'sunnyvale'));</pre>
+
+          <hr>
+
+          <a name="response"></a>
+          <h2>Response</h2>
+
+          <p>The response is in a standard [response envelope][Envelope].</p>
+
+          <ul>
+            <li><code>message</code> A string describing the result. Don't use this for anything but reading.</li>
+            <li><code>code</code> <em>200</em> on success</li>
+            <li><code>result</code> An array of [Photo][Photo] objects</li>
+          </ul>
+
+          <a name="sample"></a>
+          <h3>Sample</h3>
+<pre>{
+  "message":"",
+  "code":200,
+  "result":[
+    {
+      "tags":[
+         ""
+      ],
+      "pathBase":"\/base\/201107\/1311045184-opme7Z0WBh.jpg",
+      "appId":"opme",
+      "host":"testjmathai1.s3.amazonaws.com",
+      "dateUploadedMonth":"07",
+      "status":"1",
+      "hash":"fba49a238426ac3485af6d69967ccd2d08c1fe5c",
+      "width":"569",
+      "dateTakenMonth":"07",
+      "dateTakenDay":"18",
+      "permission":"0",
+      "pathOriginal":"\/original\/201107\/1311045184-opme7Z0WBh.jpg",
+      "exifCameraMake":"",
+      "size":"0",
+      "dateTaken":"1311045184",
+      "height":"476",
+      "views":"0",
+      "dateUploadedYear":"2011",
+      "dateTakenYear":"2011",
+      "creativeCommons":"BY-NC",
+      "dateUploadedDay":"18",
+      "dateUploaded":"1311045188",
+      "exifCameraModel":"",
+      "path200x200":"\/custom\/201107\/1311045184-opme7Z0WBh_200x200.jpg",
+      "id":"hl"
+    },
+    {
+      "tags":[
+         ""
+      ],
+      "pathBase":"\/base\/201107\/1311027064-opme0WBhqP.jpg",
+      "appId":"opme",
+      "host":"testjmathai1.s3.amazonaws.com",
+      "dateUploadedMonth":"07",
+      "status":"1",
+      "hash":"fba49a238426ac3485af6d69967ccd2d08c1fe5c",
+      "width":"569",
+      "dateTakenMonth":"07",
+      "dateTakenDay":"18",
+      "permission":"0",
+      "pathOriginal":"\/original\/201107\/1311027064-opme0WBhqP.jpg",
+      "exifCameraMake":"",
+      "size":"0",
+      "dateTaken":"1311027064",
+      "height":"476",
+      "views":"0",
+      "dateUploadedYear":"2011",
+      "dateTakenYear":"2011",
+      "creativeCommons":"BY-NC",
+      "dateUploadedDay":"18",
+      "dateUploaded":"1311027066",
+      "exifCameraModel":"",
+      "id":"ob"
+    }
+  ]
+}</pre>
+
+        </div>
+      </div>
+      <div class="row" id="footer">
+        <div class="span6">
+          &copy; 2011 The OpenPhoto Project | <a href="">hello@openphoto.me</a>
+        </div>
+        <div class="span2 offset1">
+          <div class="fb-like" data-href="http://theopenphotoproject.org" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true"></div>
+        </div>
+        <div class="span2">
+          <g:plusone size="medium"></g:plusone>
+        </div>
+        <div class="span2">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="OpenPhoto">Tweet</a>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="js/jquery-1.7.1.js"></script>
+    <script src="js/openphoto.js"></script>
+    <script src="js/prettyprint/prettify.js"></script>
+    <script>
+      OP.init(
+        {
+          'click:headline-carousel': OP.handler.headlineCarousel,
+          'mouseover:headline-carousel': OP.handler.headlineCarousel
+        }
+      );
+    </script>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=239889532709130";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+    <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script> 
+  </body>
+</html>
+
