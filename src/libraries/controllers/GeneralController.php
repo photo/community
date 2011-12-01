@@ -41,4 +41,10 @@ class GeneralController extends BaseController
     $envelope = getApi()->invoke('/overview.json');
     getTemplate()->display('template.php', $envelope['result']);
   }
+
+  public function supporters()
+  {
+    $envelope = getApi()->invoke('/supporters.json');
+    getTemplate()->display('template.php', $envelope['result']);
+  }
 }

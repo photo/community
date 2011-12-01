@@ -56,6 +56,12 @@ class ApiController extends BaseController
     return $this->envelope($content, 'overview');
   }
 
+  public function supporters()
+  {
+    $content = getTemplate()->get('supporters.php');
+    return $this->envelope($content, 'supporters');
+  }
+
   private function envelope($content, $bodyClass = null)
   {
     $response = array();

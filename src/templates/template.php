@@ -24,9 +24,10 @@
       <div class="container">
         <div class="row" id="header">
           <div class="span4 logo header-logo"><a href="/"></a></div>
-          <div class="span2 offset3"><a href="/overview" class="overview">Overview</a></div>
+          <div class="span2 offset1"><a href="/overview" class="overview">Overview</a></div>
           <div class="span2"><a href="/documentation" class="documentation">Documentation</a></div>
           <div class="span2"><a href="http://openphoto.uservoice.com" class="community">Community</a></div>
+          <div class="span2"><a href="/supporters" class="supporters">Supporters</a></div>
           <!--<div class="span2"><a href="" class="contribute">Contribute</a></div>-->
           <div class="span2 get-started"><a href="/get-started">Get Started</a></div>
         </div>

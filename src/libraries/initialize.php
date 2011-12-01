@@ -10,6 +10,7 @@ getRoute()->get('/documentation/api/([a-zA-Z0-9-]+)', array('GeneralController',
 getRoute()->get('/documentation/guide/([a-zA-Z0-9-]+)', array('GeneralController', 'documentationGuide'));
 getRoute()->get('/get-started', array('GeneralController', 'getStarted'));
 getRoute()->get('/overview', array('GeneralController', 'overview'));
+getRoute()->get('/supporters', array('GeneralController', 'supporters'));
 
 getApi()->get('/\.json', array('ApiController', 'home'), EpiApi::external);
 getApi()->get('/documentation.json', array('ApiController', 'documentation'), EpiApi::external);
@@ -17,3 +18,4 @@ getApi()->get('/documentation/api/([a-zA-Z0-9-]+).json', array('ApiController', 
 getApi()->get('/documentation/guide/([a-zA-Z0-9-]+).json', array('ApiController', 'documentationGuide'), EpiApi::external);
 getApi()->get('/get-started\.json', array('ApiController', 'getStarted'), EpiApi::external);
 getApi()->get('/overview\.json', array('ApiController', 'overview'), EpiApi::external);
+getApi()->get('/supporters\.json', array('ApiController', 'supporters'), EpiApi::external);

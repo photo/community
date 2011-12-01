@@ -87,7 +87,7 @@ table.commits td {
 #header a {
   color:inherit;
 }
-body.overview #header a.overview, body.documentation #header a.documentation, body.community #header a.community, body.contribute #header a.contribute {
+body.overview #header a.overview, body.documentation #header a.documentation, body.community #header a.community, body.supporters #header a.supporters, body.contribute #header a.contribute {
   font-weight:bold;
   color:#e8270b;
 }
@@ -294,6 +294,18 @@ body.home .content-bg {
   font-size:11px;
   border:0;
   background:inherit;
+}
+#supporters ul li  {
+  float:left;
+  margin-bottom:20px;
+  text-align:center;
+}
+#supporters ul li img {
+  border-radius:6px;
+  box-shadow: 2px 2px 2px #bbb;
+}
+#supporters ul li div {
+  display:block;
 }
 .why-icons {
   margin-right:5px;
