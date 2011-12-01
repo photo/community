@@ -20,7 +20,7 @@ body{
   color:#636363;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family:'League Gothic';
+  font-family:"League Gothic", "Helvetica", "Arial", "Lucida Grande", "Verdana", "Gill Sans";
   text-shadow: #fff 2px 1px 1px;
   font-weight:normal;
 }
@@ -166,7 +166,7 @@ body.home .content-bg {
   background-color:#f5b41c;
   padding:10px 18px;
   color:#fff;
-  font-family:'League Gothic';
+  font-family:"League Gothic", "Helvetica", "Arial", "Lucida Grande", "Verdana", "Gill Sans";
   font-size:24px;
   text-shadow: #d8930b 2px 1px 1px;
   text-transform:uppercase;
