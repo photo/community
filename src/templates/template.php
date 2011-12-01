@@ -46,13 +46,13 @@
             &copy; 2011 The OpenPhoto Project | <a href="mailto:hello@openphoto.me">hello@openphoto.me</a>
           </div>
           <div class="span2 offset1">
-            <div class="fb-like" data-href="http://theopenphotoproject.org" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true"></div>
+            <div class="fb-like" data-href="http://www.facebook.com/openphoto" data-send="false" data-layout="button_count" data-show-faces="false"></div>
           </div>
           <div class="span2">
             <g:plusone size="medium"></g:plusone>
           </div>
           <div class="span2">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="OpenPhoto">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://theopenphotoproject.org" data-via="OpenPhoto">Tweet</a>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) {return;}
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=239889532709130";
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=283425805036236";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
