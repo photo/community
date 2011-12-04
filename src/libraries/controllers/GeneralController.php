@@ -18,6 +18,12 @@ class GeneralController extends BaseController
     getTemplate()->display('template.php', $envelope['result']);
   }
 
+  public function documentationFaq($api)
+  {
+    $envelope = getApi()->invoke("/documentation/faq/{$api}.json");
+    getTemplate()->display('template.php', $envelope['result']);
+  }
+
   public function documentationGuide($api)
   {
     $envelope = getApi()->invoke("/documentation/guide/{$api}.json");

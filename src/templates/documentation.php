@@ -7,6 +7,11 @@
         <dd><a href="/documentation/guide/InstallationOSXMacports">OSX and Macports</a></dd>
         <dd><a href="/documentation/guide/InstallationUsingOpenPhotoEC2-AMI">AWS EC2 using an AMI</a></dd>
         <dd><a href="/documentation/guide/InstallationSUSE">SUSE and Apache</a></dd>
+      <dt>API FAQs</dt>
+        <dd><a href="/documentation/faq/Faq">General FAQs</a></dd>
+        <dd><a href="/documentation/api/Authentication">Authenticating with OAuth 1.0a</a></dd>
+        <dd><a href="/documentation/faq/PhotoGeneration">How photos are generated</a></dd>
+        <dd><a href="/documentation/faq/ReturnSizes">How to get specific photo sizes</a></dd>
       <dt>Test APIs</dt>
         <dd><a href="/documentation/api/GetHelloWorld">GET /hello.json</a></dd>
       <dt>Action APIs</dt>
