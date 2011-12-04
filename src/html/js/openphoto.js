@@ -10,7 +10,7 @@ var OP = (function(){
     var el = ev.target
         url = $(el).attr('href');
     
-    if(History.enabled && url.match(/^http/) === null && url.search('#') == -1) {
+    if(History.enabled && url.search('#') == -1 && (url.match(/^http/) === null || url.search(document.location.hostname) != -1)) {
       ev.preventDefault();
       get(url);
     }
