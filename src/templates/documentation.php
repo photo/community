@@ -23,7 +23,7 @@
         <dd><a href="/documentation/api/GetPhotos">GET /photos/list.json</a></dd>
         <dd><a href="/documentation/api/GetPhoto">GET /photo/:id/view.json</a></dd>
         <dd><a href="/documentation/api/GetPhotoNextPrevious">GET /photo/:id/nextprevious.json</a></dd>
-        <dd><a href="/documentation/api/PostPhotoUpload">POST /photo/:id/upload.json</a></dd>
+        <dd><a href="/documentation/api/PostPhotoUpload">POST /photo/upload.json</a></dd>
       <dt>Tag APIs</dt>
         <dd><a href="/documentation/api/GetTags">GET /tags/list.json</a></dd>
         <dd><a href="/documentation/api/PostTagCreate">POST /tag/:id/create.json</a></dd>
