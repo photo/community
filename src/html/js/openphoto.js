@@ -36,6 +36,7 @@ var OP = (function(){
     $.get(urlJson, store, 'json');
   };
   render = function(result) {
+    _gaq.push(['_trackPageview', location.pathname]);
     $('body').removeClass().addClass(result.bodyClass);
     $('#content').fadeOut('fast', function(){ $('#content').html(result.content); $('#content').fadeIn('fast'); });
   };
