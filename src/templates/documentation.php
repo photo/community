@@ -36,7 +36,7 @@
         <dd><a href="/documentation/api/PostGroupDelete">POST /group/:id/delete.json</a></dd>
         <dd><a href="/documentation/api/PostGroupUpdate">GET /groups/:id/update.json</a></dd>
       <dt>Webhook APIs</dt>
-        <dd><a href="/documentation/api/PostWebHookSubscribe">POST /webhook/subscribe</a></dd>
+        <dd><a href="/documentation/api/PostWebhookSubscribe">POST /webhook/subscribe</a></dd>
         <dd><a href="/documentation/api/GetWebhook">GET /webhook/:id/view.json</a></dd>
         <dd><a href="/documentation/api/PostWebhookDelete">POST /webhook/:id/delete.json</a></dd>
     </dl>
