@@ -6,6 +6,7 @@
     <meta name="description" content="The OpenPhoto Project is free open source photo sharing and management software for the web and mobile devices.">
     <meta name="author" content="The OpenPhoto Team">
     <link rel="Shortcut Icon" href="/img/favicon.png">
+    <link href="https://plus.google.com/106095380716356658674" rel="publisher" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -56,13 +57,14 @@
     <div class="footer-bg">
       <div class="container">
         <div class="row" id="footer">
-          <div class="span7">
+          <div class="span6">
             &copy; 2011 The OpenPhoto Project | <a href="mailto:hello@openphoto.me">hello@openphoto.me</a>
           </div>
           <div class="span2 offset1">
             <div class="fb-like" data-href="http://www.facebook.com/openphoto" data-send="false" data-layout="button_count" data-show-faces="false"></div>
           </div>
-          <div class="span2">
+          <div class="span3">
+            <a href="https://plus.google.com/106095380716356658674?prsrc=3" style="text-decoration:none;" title="OpenPhoto on Google+"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" alt="OpenPhoto on Google+" style="border:0;width:16px;height:16px;"/></a>
             <g:plusone size="medium"></g:plusone>
           </div>
           <div class="span2">
