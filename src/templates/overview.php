@@ -1,26 +1,28 @@
-<h1>Find out how OpenPhoto is different</h1>
+<h1>Yes, your photos really are that important</h1>
 
-<h2>It's like Wordpress for your photos</h2>
 <div class="row">
-  <div class="span7">
+  <div class="span8">
+    <h2>1) You <em>decide</em> where to store your photos</h2>
     <p>
-      <strong>
-        Wordpress did more than just give people a great way to publish their stories on the web.
-        They liberated journalism and tore down barriers to let anyone with a voice be heard.
-      </strong>
+      Select where you'd like to store your photos.
+      You can choose Dropbox, Amazon S3 or your own hard drive.
     </p>
+    <h2>2) You let us scour your photo accounts (optional)</h2>
     <p>
-      It's your choice if you want to simply sign up for an OpenPhoto account or install and host it yourself.
-      If you connect it with one of your cloud accounts then you can easily switch between the two without ever importing your photos again.
+      Select where you'd like to store your photos.
+      You can choose Dropbox, Amazon S3 or your own hard drive.
     </p>
+    <h2>3) Relax, organize and share your photos (required)</h2>
     <p>
-      When we say you control your photos, we mean it.
+      Take a sigh of relief knowing that all of your photos are in one place, safe and always at your fingertips.
     </p>
   </div>
-  <div class="span7 offset1">
+  <div class="span7">
     <img src="/img/collage.png">
   </div>
 </div>
+
+<hr>
 
 <h2>The OpenPhoto Story</h2>
 <div class="row">
@@ -48,6 +50,8 @@
     </p>
   </div>
 </div>
+
+<hr>
 
 <h2>Free and open source</h2>
 <p>

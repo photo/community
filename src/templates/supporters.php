@@ -88,21 +88,24 @@
     <div class="span4">Shannon Marie Brown</div>
   </div>
   <div class="row">
+    <div class="span4">Shuttercal.com</div>
     <div class="span4">Slavo Ingilizov</div>
     <div class="span4">Stephen Garcia</div>
     <div class="span4">Steven C. Nay</div>
-    <div class="span4">Tim Ferguson</div>
   </div>
   <div class="row">
+    <div class="span4">Tim Ferguson</div>
     <div class="span4">Tim Scott</div>
     <div class="span4">Tony Noecker</div>
     <div class="span4">Tsvika Rabkin</div>
-    <div class="span4">Tymen Mullender</div>
   </div>
   <div class="row">
+    <div class="span4">Tymen Mullender</div>
     <div class="span4">Vaclav Synacek</div>
     <div class="span4">William Crawford</div>
     <div class="span4">Yuya Saito</div>
+  </div>
+  <div class="row">
     <div class="span4">Zeroelink</div>
   </div>
   <hr>

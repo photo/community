@@ -7,7 +7,7 @@
 
   $gUrl = 'http://github.com/api/v2/json';
   $repoUrl = "{$gUrl}/repos/show/openphoto/frontend";
-  $commitsUrl = "{$gUrl}/commits/list/openphoto/frontend/master";
+  $commitsUrl = "{$gUrl}/commits/list/openphoto/frontend/development";
   $ch = curl_init($repoUrl);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   $repoJson = curl_exec($ch);

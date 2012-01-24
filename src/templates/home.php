@@ -10,21 +10,21 @@
     </div>
     <div class="span5 message">
       <div class="first span6">
-        <h1>100% photo liberation, guaranteed!</h1>
+        <h1>All your photos in one spot. Wherever you'd like.</h1>
         <div class="span5">
-          Finally, a photo sharing app that gives <em>you</em> complete control over <em>your</em> photos. <a href="/overview">See the difference <span class="raquo">&raquo;</span></a>
+          A photo application that lets <em>you</em> store <em>your</em> photos on Dropbox, Amazon S3 or in your garage. <a href="/overview">See the difference <span class="raquo">&raquo;</span></a>
         </div>
       </div>
       <div class="second span6">
-        <h1>Installable and hosted versions.</h1>
+        <h1>Install it yourself or sign up for a hosted account.</h1>
         <div class="span5">
-          We've got detailed installation guides and a hosted version for those who don't want the hassle. <a href="/get-started">Get started now <span class="raquo">&raquo;</span></a>
+          We've made it easy to get started. Sign up for an account or follow our detailed installation guides. <a href="/get-started">Get started now <span class="raquo">&raquo;</span></a>
         </div>
       </div>
       <div class="third span6">
         <h1>Use our beautiful API and build awesome apps.</h1>
         <div class="span5">
-          What good is being open and free if you can't make it do what you want? <a href="/documentation">Read our API docs <span class="raquo">&raquo;</span></a>
+          What good is being open and free if you can't make it do what you want? <a href="/documentation">Read the API docs <span class="raquo">&raquo;</span></a>
         </div>
       </div>
     </div>
@@ -35,10 +35,10 @@
     <div>
       <h2>A growing community</h2>
       <ul class="media-grid unstyled themes">
-        <li class="span1"><a href="https://twitter.com/openphoto" target="_blank" rel="external"><img src="img/icon-tw.png"></a></li>
-        <li class="span1"><a href="http://www.facebook.com/OpenPhoto" target="_blank" rel="external"><img src="img/icon-fb.png"></a></li>
-        <li class="span1"><a href="https://github.com/openphoto/frontend" target="_blank" rel="external"><img src="img/icon-gh.png"></a></li>
-        <li class="span1"><a href="http://www.youtube.com/" target="_blank" rel="external"><img src="img/icon-yt.png"></a></li>
+        <li class="span1"><a href="https://twitter.com/openphoto" target="_blank" rel="external"><img src="/img/icon-tw.png"></a></li>
+        <li class="span1"><a href="http://www.facebook.com/OpenPhoto" target="_blank" rel="external"><img src="/img/icon-fb.png"></a></li>
+        <li class="span1"><a href="https://github.com/openphoto/frontend" target="_blank" rel="external"><img src="/img/icon-gh.png"></a></li>
+        <li class="span1"><a href="http://www.youtube.com/user/OpenPhotoProject" target="_blank" rel="external"><img src="/img/icon-yt.png"></a></li>
       </ul>
       <?php echo $twitterStatus; ?>
     </div>
@@ -104,6 +104,7 @@
       <a href="http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/" title="OpenPhoto on Techcrunch" rel="external" target="_blank"><img src="/img/techcrunch-logo.jpg"></a>
       <a href="http://www.readwriteweb.com/archives/save_your_photos_to_amazon_or_dropbox_with_app_pla.php" title="OpenPhoto on Read Write Web" rel="external" target="_blank"><img src="/img/read-write-web-logo.jpg"></a>
       <a href="http://thenextweb.com/dd/2011/07/16/creating-a-portable-web-when-your-data-is-truly-yours/" title="OpenPhoto on The Next Web"rel="external" target="_blank"><img src="/img/the-next-web-logo.png"></a>
+      <a href="http://www.theatlantic.com/technology/archive/2012/01/the-startup-challenging-the-centralized-internet/250008/" title="OpenPhoto on The Atlantic"rel="external" target="_blank"><img src="/img/the-atlantic-logo.jpg"></a>
       <a href="http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows" title="The OpenPhoto on Mozilla WebFWD" rel="external" target="_blank"><img src="img/webfwd.png" class="webfwd"></a>
     </div>
   </div>
