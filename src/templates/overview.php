@@ -5,7 +5,7 @@
     <h2>1) You <em>decide</em> where to store your photos</h2>
     <p>
       Select where you'd like to store your photos.
-      You can choose Dropbox, Amazon S3 or your own hard drive.
+      You can choose Dropbox, personal Amazon S3 bucket or your hard drive.
     </p>
     <h2>2) You let us scour your photo accounts (optional)</h2>
     <p>
