@@ -14,7 +14,7 @@
     </p>
     <h2>3) Relax, organize and share your photos (required)</h2>
     <p>
-      Take a sigh of relief knowing that all of your photos are in one place, safe and always at your fingertips.
+      Take a sigh of relief knowing that all of your photos are in one place, always backed up and available on your laptop and in your pocket.
     </p>
   </div>
   <div class="span7">
