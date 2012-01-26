@@ -48,8 +48,9 @@
       <h2>Feature requests &amp; questions</h2>
       <?php if(count($uservoice['items']) > 0) { ?>
         <ul class="unstyled forum">
-          <?php foreach($uservoice['items'] as $item) { ?>
+          <?php foreach($uservoice['items'] as $cnt => $item) { ?>
             <li><a href="<?php echo $item['url']; ?>" target="_blank" rel="external" title="<?php echo $item['title']; ?>"><?php echo $item['titlefmt']; ?></a></li>
+            <?php if($cnt > 6) break; ?>
           <?php } ?>
         </ul>
       <?php } ?>

@@ -6,6 +6,12 @@ class GeneralController extends BaseController
     parent::__construct();
   }
 
+  public function community()
+  {
+    $envelope = getApi()->invoke('/community.json');
+    getTemplate()->display('template.php', $envelope['result']);
+  }
+
   public function documentation()
   {
     $envelope = getApi()->invoke('/documentation.json');
@@ -30,6 +36,12 @@ class GeneralController extends BaseController
     getTemplate()->display('template.php', $envelope['result']);
   }
 
+  public function error404($page)
+  {
+    $envelope = getApi()->invoke("/{$page}.json");
+    getTemplate()->display('template.php', $envelope['result']);
+  }
+
   public function getStarted()
   {
     $envelope = getApi()->invoke('/get-started.json');
@@ -50,7 +62,12 @@ class GeneralController extends BaseController
 
   public function supporters()
   {
-    $envelope = getApi()->invoke('/supporters.json');
+    getRoute()->redirect('/team');
+  }
+
+  public function team()
+  {
+    $envelope = getApi()->invoke('/team.json');
     getTemplate()->display('template.php', $envelope['result']);
   }
 }

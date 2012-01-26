@@ -6,6 +6,14 @@ class ApiController extends BaseController
     parent::__construct();
   }
 
+  public function community()
+  {
+    $dir = dirname(dirname(dirname(__FILE__)));
+    $uservoice= json_decode(file_get_contents(sprintf('%s/scripts/output/uservoice.json', $dir)), 1);
+    $content = getTemplate()->get('community.php', array('uservoice' => $uservoice));
+    return $this->envelope($content, 'community');
+  }
+
   public function documentation()
   {
     $params = array('name' => 'documentation', 'documentation' => getTemplate()->get('documentationHome.php'));
@@ -43,6 +51,12 @@ class ApiController extends BaseController
     return $this->envelope($content, 'get-started');
   }
 
+  public function error404($page)
+  {
+    $content = getTemplate()->get('error404.php', array('page' => $page));
+    return $this->envelope($content, 'error-404');
+  }
+
   public function home()
   {
     $dir = dirname(dirname(dirname(__FILE__)));
@@ -64,10 +78,10 @@ class ApiController extends BaseController
     return $this->envelope($content, 'overview');
   }
 
-  public function supporters()
+  public function team()
   {
-    $content = getTemplate()->get('supporters.php');
-    return $this->envelope($content, 'supporters');
+    $content = getTemplate()->get('team.php');
+    return $this->envelope($content, 'team');
   }
 
   private function envelope($content, $bodyClass = null)

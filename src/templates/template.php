@@ -39,10 +39,9 @@
         <div class="row" id="header">
           <div class="span4 logo header-logo"><a href="/"></a></div>
           <div class="span2 offset1"><a href="/overview" class="overview">Overview</a></div>
+          <div class="span2"><a href="/community" class="community">Community</a></div>
           <div class="span2"><a href="/documentation" class="documentation">Documentation</a></div>
-          <div class="span2"><a href="http://openphoto.uservoice.com" class="community">Community</a></div>
-          <div class="span2"><a href="/supporters" class="supporters">Supporters</a></div>
-          <!--<div class="span2"><a href="" class="contribute">Contribute</a></div>-->
+          <div class="span2"><a href="/contribute" class="contribute">Contribute</a></div>
           <div class="span2 get-started"><a href="/get-started">Get Started</a></div>
         </div>
       </div>
@@ -58,7 +57,7 @@
       <div class="container">
         <div class="row" id="footer">
           <div class="span6">
-            &copy; 2011 The OpenPhoto Project | <a href="mailto:hello@openphoto.me">hello@openphoto.me</a>
+            &copy; 2011 <a href="/team">The OpenPhoto Project Team</a> | <a href="mailto:hello@openphoto.me">hello@openphoto.me</a>
           </div>
           <div class="span2 offset1">
             <div class="fb-like" data-href="http://www.facebook.com/openphoto" data-send="false" data-layout="button_count" data-show-faces="false"></div>

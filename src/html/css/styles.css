@@ -300,6 +300,12 @@ body.home .content-bg {
   border:0;
   background:inherit;
 }
+#error img {
+  width:744px;
+  height:458px;
+  margin:auto;
+  display:block;
+}
 #supporters ul li  {
   float:left;
   margin-bottom:20px;
@@ -311,6 +317,22 @@ body.home .content-bg {
 }
 #supporters ul li div {
   display:block;
+}
+.votebox {
+  text-align:center;
+  padding:5px 0;
+  border:solid 1px #ddd;
+  border-radius:3px;
+  margin-bottom:5px;
+  background-color:#eee;
+}
+.votebox>div {
+  margin-top:0;
+  line-height:10px;
+  font-size:10px;
+}
+.votetitle {
+  padding:10px 0;
 }
 .why-icons {
   margin-right:5px;
