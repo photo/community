@@ -12,6 +12,14 @@ class GeneralController extends BaseController
     getTemplate()->display('template.php', $envelope['result']);
   }
 
+  public function contribute($page = null)
+  {
+    if($page !== null)
+      $page = "/{$page}";
+    $envelope = getApi()->invoke("/contribute{$page}.json");
+    getTemplate()->display('template.php', $envelope['result']);
+  }
+
   public function documentation()
   {
     $envelope = getApi()->invoke('/documentation.json');
@@ -33,6 +41,12 @@ class GeneralController extends BaseController
   public function documentationGuide($api)
   {
     $envelope = getApi()->invoke("/documentation/guide/{$api}.json");
+    getTemplate()->display('template.php', $envelope['result']);
+  }
+
+  public function documentationSchemas($api)
+  {
+    $envelope = getApi()->invoke("/documentation/schemas/{$api}.json");
     getTemplate()->display('template.php', $envelope['result']);
   }
 

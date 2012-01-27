@@ -9,9 +9,30 @@ class ApiController extends BaseController
   public function community()
   {
     $dir = dirname(dirname(dirname(__FILE__)));
-    $uservoice= json_decode(file_get_contents(sprintf('%s/scripts/output/uservoice.json', $dir)), 1);
-    $content = getTemplate()->get('community.php', array('uservoice' => $uservoice));
+    $favorites = json_decode(file_get_contents(sprintf('%s/scripts/output/twitter-favorites.json', $dir)), 1);
+    $uservoice = json_decode(file_get_contents(sprintf('%s/scripts/output/uservoice.json', $dir)), 1);
+    $content = getTemplate()->get('community.php', array('uservoice' => $uservoice, 'twitterFavorites' => $favorites));
     return $this->envelope($content, 'community');
+  }
+
+  public function contribute($page = null)
+  {
+    if($page === null)
+    {
+      $page = 'Readme.markdown';
+      $name = 'home';
+    }
+    else
+    {
+      $name = $page;
+      $page .= '.markdown';
+    }
+
+
+    $documentationFile = sprintf('%s/external/openphoto-frontend/documentation/contribute/%s', dirname(dirname(__FILE__)), $page);
+    $contribute = Markdown(file_get_contents($documentationFile));
+    $content = getTemplate()->get('contribute.php', array('contribute' => $contribute, 'name' => $name));
+    return $this->envelope($content, 'contribute');
   }
 
   public function documentation()
@@ -42,6 +63,14 @@ class ApiController extends BaseController
     $documentationFile = sprintf('%s/external/openphoto-frontend/documentation/guides/%s.markdown', dirname(dirname(__FILE__)), $api);
     $params = array('name' => $api, 'documentation' => Markdown(file_get_contents($documentationFile)));
     $content = getTemplate()->get('documentation.php', $params);
+    return $this->envelope($content, 'documentation');
+  }
+
+  public function documentationSchemas($api)
+  {
+    $documentationFile = sprintf('%s/external/openphoto-frontend/documentation/schemas/%s.markdown', dirname(dirname(__FILE__)), $api);
+    $params = array('name' => $api, 'schema' => Markdown(file_get_contents($documentationFile)));
+    $content = getTemplate()->get('schema.php', $params);
     return $this->envelope($content, 'documentation');
   }
 

@@ -67,6 +67,9 @@ pre {
   text-transform:lowercase;
 }
 .footnote {
+  border:0;
+  padding:0;
+  margin:0;
   font-size:11px;
   color:#bbb;
 }
@@ -92,7 +95,7 @@ table.commits td {
 #header a {
   color:inherit;
 }
-body.overview #header a.overview, body.documentation #header a.documentation, body.community #header a.community, body.supporters #header a.supporters, body.contribute #header a.contribute {
+body.overview #header a.overview, body.documentation #header a.documentation, body.community #header a.community, body.contribute #header a.contribute, body.contribute #header a.contribute {
   font-weight:bold;
   color:#e8270b;
 }
@@ -333,6 +336,14 @@ body.home .content-bg {
 }
 .votetitle {
   padding:10px 0;
+}
+ul.favorites li {
+  border-bottom:solid 1px #e3e3e3;
+  padding:10px 0;
+}
+ul.favorites li img {
+  border-radius:6px;
+  box-shadow: 2px 2px 2px #bbb;
 }
 .why-icons {
   margin-right:5px;

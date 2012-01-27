@@ -14,8 +14,13 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <?php if(isset($_GET['debug'])) { ?>
+      <link rel="stylesheet" href="/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/css/styles.css">
+    <?php } else { ?>
+      <link rel="stylesheet" href="/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/css/styles.css">
+    <?php } ?>
 
     <!-- Le fav and touch icons -->
     <script type="text/javascript">

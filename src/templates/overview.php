@@ -16,6 +16,7 @@
     <p>
       Take a sigh of relief knowing that all of your photos are in one place, always backed up and available on your laptop and in your pocket.
     </p>
+    <a href="/get-started" class="btn primary">Get Started</a>
   </div>
   <div class="span7">
     <img src="/img/collage.png">

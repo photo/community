@@ -19,10 +19,17 @@
   $toksec = trim(file_get_contents('secrets/tw-toksec'));
   $tw = new EpiTwitter($key, $sec, $tok, $toksec);
 
-  $resp = $tw->get('/users/show/openphoto.json');
-  $status = Twitter_Autolink::create($resp->status->text)
-    ->setNoFollow(false)
-    ->addLinks();
+  $resp = $tw->get('/favorites.json');
+  //var_dump($resp->response);
+  $output = array();
+  foreach($resp as $tweet)
+  {
+    $status = Twitter_Autolink::create($tweet->text)
+            ->setNoFollow(false)
+            ->addLinks();
+    $url = 'https://twitter.com/'.$tweet->user->screen_name.'/status/'.$tweet->id_str;
+    $output[] = array('status' => $status, 'user' => $tweet->user->screen_name, 'url' => $url, 'profile_image' => $tweet->user->profile_image_url, 'time' => date('h:i \o\n l, M jS', strtotime($tweet->created_at)));
+  }
 
-  if($status)
-    file_put_contents('output/twitter.txt', $status . '<div class="footnote"><a href="https://twitter.com/OpenPhoto/status/' . $resp->status->id_str . '" target="_blank" rel="external">' . date('h:i \o\n l, M jS', strtotime($resp->status->created_at)) . '</a> from <a href="https://twitter.com/OpenPhoto" target="_blank" rel="external">Twitter</a></div>');
+  if(!empty($output))
+    file_put_contents('output/twitter-favorites.json', json_encode($output));

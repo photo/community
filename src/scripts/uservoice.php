@@ -7,7 +7,7 @@
     
 
   $key = trim(file_get_contents('secrets/uv-key'));
-  $ch = curl_init("http://openphoto.uservoice.com/api/v1/forums/141441/suggestions.json?client={$key}&per_page=25&sort=top");
+  $ch = curl_init("http://openphoto.uservoice.com/api/v1/forums/141441/suggestions.json?client={$key}&per_page=40&sort=top");
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   $resp = json_decode(curl_exec($ch), 1);
 
