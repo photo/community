@@ -9,8 +9,8 @@
     </p>
     <h2>2) You let us scour your photo accounts (optional)</h2>
     <p>
-      Select where you'd like to store your photos.
-      You can choose Dropbox, Amazon S3 or your own hard drive.
+      You've already uploaded photos to Flickr, Picasa or Facebook.
+      Let us go find them and store them into a central spot.
     </p>
     <h2>3) Relax, organize and share your photos (required)</h2>
     <p>
