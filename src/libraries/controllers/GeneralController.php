@@ -68,6 +68,12 @@ class GeneralController extends BaseController
     getTemplate()->display('template.php', $envelope['result']);
   }
 
+  public function screenshots()
+  {
+    $envelope = getApi()->invoke('/screenshots.json');
+    getTemplate()->display('template.php', $envelope['result']);
+  }
+
   public function overview()
   {
     $envelope = getApi()->invoke('/overview.json');

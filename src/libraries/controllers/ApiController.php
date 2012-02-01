@@ -107,6 +107,12 @@ class ApiController extends BaseController
     return $this->envelope($content, 'overview');
   }
 
+  public function screenshots()
+  {
+    $content = getTemplate()->get('screenshots.php');
+    return $this->envelope($content, 'screenshots');
+  }
+
   public function team()
   {
     $content = getTemplate()->get('team.php');

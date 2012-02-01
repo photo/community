@@ -37,8 +37,14 @@ var OP = (function(){
   };
   render = function(result) {
     _gaq.push(['_trackPageview', location.pathname]);
+
     $('body').removeClass().addClass(result.bodyClass);
-    $('#content').fadeOut('fast', function(){ $('#content').html(result.content); $('#content').fadeIn('fast'); });
+    $('#content').fadeOut('fast', function(){ 
+        $('#content').html(result.content);
+        $('#content').fadeIn('fast');
+        $("a.screenshot-link:not(.cboxElement)").colorbox({rel:'screenshots',loop:false});
+      }
+    );
   };
   store = function(response) {
     var result = response.result;
@@ -77,7 +83,7 @@ var OP = (function(){
       classMap = clsMap;
       $(document).click(eventHandler);
       $(document).mouseover(eventHandler);
-      $('a').live('click', anchorBinder);
+      $('a:not(.inherit)').live('click', anchorBinder);
       History.Adapter.bind(window,'statechange',function(){
         var State = History.getState();
         render(State.data);

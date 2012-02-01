@@ -44,10 +44,11 @@
         <div class="row" id="header">
           <div class="span4 logo header-logo"><a href="/"></a></div>
           <div class="span2 offset1"><a href="/overview" class="overview">Overview</a></div>
+          <div class="span2"><a href="/screenshots" class="screenshots">Screenshots</a></div>
           <div class="span2"><a href="/community" class="community">Community</a></div>
           <div class="span2"><a href="/documentation" class="documentation">Documentation</a></div>
           <div class="span2"><a href="/contribute" class="contribute">Contribute</a></div>
-          <div class="span2 get-started"><a href="/get-started">Get Started</a></div>
+          <!--<div class="span2 get-started"><a href="/get-started">Get Started</a></div>-->
         </div>
       </div>
     </div>
@@ -80,6 +81,7 @@
 
     <script src="/js/jquery-1.7.1.js"></script>
     <script src="/js/jquery.history.js"></script>
+    <script src="/js/jquery.colorbox-min.js"></script>
     <script src="/js/openphoto.js"></script>
     <script>
       OP.init(
@@ -88,6 +90,7 @@
           'mouseover:headline-carousel': OP.handler.headlineCarousel
         }
       );
+      $("a.screenshot-link:not(.cboxElement)").colorbox({rel:'screenshots',loop:false});
     </script>
 
     <div id="fb-root"></div>

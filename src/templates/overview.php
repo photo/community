@@ -12,7 +12,7 @@
       You've already uploaded photos to Flickr, Picasa or Facebook.
       Let us go find them and store them into a central spot.
     </p>
-    <h2>3) Relax, organize and share your photos (required)</h2>
+    <h2>3) Relax, organize and enjoy your photos</h2>
     <p>
       Take a sigh of relief knowing that all of your photos are in one place, always backed up and available on your laptop and in your pocket.
     </p>
@@ -22,6 +22,75 @@
     <img src="/img/collage.png">
   </div>
 </div>
+
+<hr>
+
+<ul class="media-grid">
+  <li>
+    <a href="/img/screenshots/mobile-login.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-login-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/mobile-list.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-list-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/mobile-detail.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-detail-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/mobile-tags.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-tags-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/mobile-settings.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-settings-thumb.png" alt="">
+    </a>
+  </li>
+</ul>
+<ul class="media-grid">
+  <li>
+    <a href="/img/screenshots/web-list.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-list-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/web-detail.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-detail-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/web-tags.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-tags-thumb.png" alt="">
+    </a>
+  </li>
+</ul>
+<ul class="media-grid">
+  <li>
+    <a href="/img/screenshots/web-mobile-vertical-home.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-home-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/web-mobile-vertical-list.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-list-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/web-mobile-vertical-detail.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-detail-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/web-mobile-vertical-tags.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-tags-thumb.png" alt="">
+    </a>
+  </li>
+</ul>
 
 <hr>
 
