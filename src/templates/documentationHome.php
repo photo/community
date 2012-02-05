@@ -13,9 +13,9 @@
   You can grab any of our API libraries to make it really easy to hit the ground running.
   <ul>
     <li><a href="https://github.com/openphoto/openphoto-php" rel="external" target="_blank">PHP</a></li>
+    <li><a href="https://github.com/openphoto/openphoto-python" rel="external" target="_blank">Python</a></li>
+    <li><a href="https://github.com/openphoto/openphoto-ruby" rel="external" target="_blank">Ruby</a></li>
     <li><a href="https://github.com/openphoto/openphoto-java" rel="external" target="_blank">Java</a></li>
-    <li><a href="https://github.com/openphoto/openphoto-python" rel="external" target="_blank">Python</a> (in development)</li>
-    <li><a href="https://github.com/openphoto/openphoto-ruby" rel="external" target="_blank">Ruby</a> (in development)</li>
   </ul>
 
   Using the PHP library you can make a command line call to the test API.
