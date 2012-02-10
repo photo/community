@@ -17,6 +17,8 @@
       <dt>Action APIs</dt>
         <dd><a href="/documentation/api/PostActionCreate">POST /action/:id/create.json</a></dd>
         <dd><a href="/documentation/api/PostActionDelete">POST /action/:id/delete.json</a></dd>
+      <dt>Activity APIs</dt>
+        <dd><a href="/documentation/api/GetActivities">GET /activities/list.json</a></dd>
       <dt>Photo APIs</dt>
         <dd><a href="/documentation/api/PostPhotoDelete">POST /photo/:id/delete.json</a></dd>
         <dd><a href="/documentation/api/PostPhotoUpdate">POST /photo/:id/update.json</a></dd>
