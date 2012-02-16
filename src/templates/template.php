@@ -63,7 +63,7 @@
       <div class="container">
         <div class="row" id="footer">
           <div class="span6">
-            &copy; 2011 <a href="/team">The OpenPhoto Project Team</a> | <a href="mailto:hello@openphoto.me">hello@openphoto.me</a>
+            &copy; <?php echo date('Y'); ?> <a href="/team">The OpenPhoto Project Team</a> | <a href="mailto:hello@openphoto.me">hello@openphoto.me</a>
           </div>
           <div class="span2 offset1">
             <div class="fb-like" data-href="http://www.facebook.com/openphoto" data-send="false" data-layout="button_count" data-show-faces="false"></div>

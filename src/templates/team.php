@@ -3,15 +3,17 @@
 <div id="supporters">
   <h2>The (current) core team</h2>
   <ul class="media-grid">
-    <li class="span4"><img src="http://www.gravatar.com/avatar/eb7b9f6c4582826efaa2d7b31ae7e01f?size=150"><div>Brian Levine</div><div class="footnote">openphoto-ruby</div></li>
+    <li class="span4"><img src="http://www.gravatar.com/avatar/16cbb4d910211e50d5f2b86b365b0f7e?size=150"><div>Brian Levine</div><div class="footnote">openphoto-ruby</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/069ca6b19a82a692a13ac20ddf7a51d5?size=150"><div>Gareth Greenaway<div class="footnote">Amazon EC2 AMIs</div></div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/df9b23c550b548fb8b5779e897d3d39e?size=150"><div>Hub Figuière</div><div class="footnote">frontend</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/e4d1f099d40e3b453be3355349b90457?size=150"><div>Jaisen Mathai</div><div class="footnote">frontend</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/b29b5419f81fa03145cafc684bb20c76?size=150"><div>James Walker</div><div class="footnote">openphoto-python</div></li>
+    <li class="span4"><img src="http://www.gravatar.com/avatar/e2f115ff65f184658ec426c5c6b793db?size=150"><div>Patrick Boos</div><div class="footnote">mobile-android</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/c3bc919ff2d34d720f06d219f8ad00a4?size=150"><div>Patrick Santana</div><div class="footnote">mobile-ios</div></li>
-    <li class="span4"><img src="http://www.gravatar.com/avatar/ecad53f2a5fd47213847fd74f2bafbbc?size=150"><div>Sujin Headrick</div><div class="footnote">Community Manager</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/cd492b1bafd247ec1d52defb632cbd22?size=150"><div>Randy Hoyt</div><div class="footnote">openphoto-wordpress</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/9b2e3dabf361eeaf308ce6cca61cf44c?size=150"><div>Randy Jensen</div><div class="footnote">openphoto-wordpress</div></li>
+    <li class="span4"><img src="http://www.gravatar.com/avatar/52fbbabfa1a925d17caaeeed641a989b?size=150"><div>Samat Jain</div><div class="footnote">export-flickr</div></li>
+    <li class="span4"><img src="http://www.gravatar.com/avatar/ecad53f2a5fd47213847fd74f2bafbbc?size=150"><div>Sujin Headrick</div><div class="footnote">Community Manager</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/15d29bafb5b4146ba47dd06897c6558f?size=150"><div>Tobias Beisel</div><div class="footnote">mobile-ios</div></li>
   </ul>
   <hr>
