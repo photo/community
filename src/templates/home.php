@@ -73,7 +73,7 @@
         OpenPhoto apps will soon be available for both iOS and Android - giving you the power to share and upload photos from wherever you are, anytime!
       </p>
       <p>
-        Stay tuned for when the moble apps for iPhone and Android will be available!
+        Stay tuned! Mobile apps for iPhone and Android are coming soon!
       </p>
     </div>
   </div>
