@@ -14,7 +14,7 @@
     <li class="span4"><img src="http://www.gravatar.com/avatar/9b2e3dabf361eeaf308ce6cca61cf44c?size=150"><div>Randy Jensen</div><div class="footnote">openphoto-wordpress</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/52fbbabfa1a925d17caaeeed641a989b?size=150"><div>Samat Jain</div><div class="footnote">export-flickr</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/ecad53f2a5fd47213847fd74f2bafbbc?size=150"><div>Sujin Headrick</div><div class="footnote">Community Manager</div></li>
-    <li class="span4"><img src="http://www.gravatar.com/avatar/15d29bafb5b4146ba47dd06897c6558f?size=150"><div>Tobias Beisel</div><div class="footnote">mobile-ios</div></li>
+    <li class="span4"><img src="http://www.gravatar.com/avatar/118c98d0ced3cae2fa1aacab97c3c453?size=150"><div>Tobias Beisel</div><div class="footnote">mobile-ios</div></li>
   </ul>
   <hr>
   <h2>Contributors</h2>
