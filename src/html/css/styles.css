@@ -321,6 +321,14 @@ body.home .content-bg {
 #supporters ul li div {
   display:block;
 }
+#supporters ul.media-grid li a.plain {
+  box-shadow:none;
+  padding:0;
+  margin:0;
+  border:0;
+  text-align:center;
+  float:none;
+}
 .votebox {
   text-align:center;
   padding:5px 0;
