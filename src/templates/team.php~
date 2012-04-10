@@ -3,7 +3,6 @@
 <div id="supporters">
   <h2>The (current) core team</h2>
   <ul class="media-grid">
-    <li class="span4"><img src="http://www.gravatar.com/avatar/fa2ffb0f9916d4637d0b0a71415e6734?size=150"><div>Benjamin Kerensa</div><div class="footnote"><a href="https://twitter.com/bkerensa" class="plain" target="_blank" rel="external">@bkerensa</a></div><div class="footnote">Community Manager</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/16cbb4d910211e50d5f2b86b365b0f7e?size=150"><div>Brian Levine</div><div class="footnote"><a href="https://twitter.com/beanserver" class="plain" target="_blank" rel="external">@beanserver</a></div><div class="footnote">openphoto-ruby</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/069ca6b19a82a692a13ac20ddf7a51d5?size=150"><div>Gareth Greenaway</div><div class="footnote"><a href="https://twitter.com/garethgreenaway" class="plain" target="_blank" rel="external">@garethgreenaway</a></div><div class="footnote">Amazon EC2 AMIs</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/df9b23c550b548fb8b5779e897d3d39e?size=150"><div>Hub Figuière</div><div class="footnote"><a href="https://twitter.com/hfiguiere" class="plain" target="_blank" rel="external">@hfiguiere</a></div><div class="footnote">frontend</div></li>
@@ -15,6 +14,7 @@
     <li class="span4"><img src="http://www.gravatar.com/avatar/9b2e3dabf361eeaf308ce6cca61cf44c?size=150"><div>Randy Jensen</div><div class="footnote"><a href="https://twitter.com/randyjensen" class="plain" target="_blank" rel="external">@randyjensen</a></div><div class="footnote">openphoto-wordpress</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/52fbbabfa1a925d17caaeeed641a989b?size=150"><div>Samat Jain</div><div class="footnote"><a href="https://twitter.com/samatjain" class="plain" target="_blank" rel="external">@samatjain</a></div><div class="footnote">export-flickr</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/bcb8a7abe83d70134ff9fcc756a9a4da?size=150"><div>Sujin Headrick</div><div class="footnote"><a href="https://twitter.com/sushimustwrite" class="plain" target="_blank" rel="external">@sushimustwrite</a></div><div class="footnote">Community Manager</div></li>
+<li class="span4"><img src="http://www.gravatar.com/avatar/fa2ffb0f9916d4637d0b0a71415e6734?size=150"><div>Benjamin Kerensa</div><div class="footnote"><a href="https://twitter.com/bkerensa" class="plain" target="_blank" rel="external">@bkerensa</a></div><div class="footnote">Community Manager</div></li>
     <li class="span4"><img src="http://www.gravatar.com/avatar/118c98d0ced3cae2fa1aacab97c3c453?size=150"><div>Tobias Beisel</div><div class="footnote"><a href="https://twitter.com/tobiasbeisel" class="plain" target="_blank" rel="external">@tobiasbeisel</a></div><div class="footnote">mobile-ios</div></li>
 
   </ul>
