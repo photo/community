@@ -32,8 +32,13 @@
     </a>
   </li>
   <li>
-    <a href="/img/screenshots/mobile-list.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/mobile-list-thumb.png" alt="">
+    <a href="/img/screenshots/mobile-newest.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-newest-thumb.png" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="/img/screenshots/mobile-gallery.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-gallery-thumb.png" alt="">
     </a>
   </li>
   <li>
@@ -46,21 +51,16 @@
       <img class="thumbnail" src="/img/screenshots/mobile-tags-thumb.png" alt="">
     </a>
   </li>
-  <li>
-    <a href="/img/screenshots/mobile-settings.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/mobile-settings-thumb.png" alt="">
-    </a>
-  </li>
 </ul>
 <ul class="media-grid">
   <li>
-    <a href="/img/screenshots/web-list.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/web-list-thumb.png" alt="">
+    <a href="/img/screenshots/web-home.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-home-thumb.png" alt="">
     </a>
   </li>
   <li>
-    <a href="/img/screenshots/web-detail.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/web-detail-thumb.png" alt="">
+    <a href="/img/screenshots/web-gallery.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-gallery-thumb.png" alt="">
     </a>
   </li>
   <li>
@@ -71,23 +71,18 @@
 </ul>
 <ul class="media-grid">
   <li>
-    <a href="/img/screenshots/web-mobile-vertical-home.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-home-thumb.png" alt="">
+    <a href="/img/screenshots/web-mobile-home.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-mobile-home-thumb.png" alt="">
     </a>
   </li>
   <li>
-    <a href="/img/screenshots/web-mobile-vertical-list.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-list-thumb.png" alt="">
+    <a href="/img/screenshots/web-mobile-gallery.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-mobile-gallery-thumb.png" alt="">
     </a>
   </li>
   <li>
-    <a href="/img/screenshots/web-mobile-vertical-detail.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-detail-thumb.png" alt="">
-    </a>
-  </li>
-  <li>
-    <a href="/img/screenshots/web-mobile-vertical-tags.png" class="inherit screenshot-link">
-      <img class="thumbnail" src="/img/screenshots/web-mobile-vertical-tags-thumb.png" alt="">
+    <a href="/img/screenshots/web-mobile-tags.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/web-mobile-tags-thumb.png" alt="">
     </a>
   </li>
 </ul>
