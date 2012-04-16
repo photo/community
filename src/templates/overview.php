@@ -51,6 +51,11 @@
       <img class="thumbnail" src="/img/screenshots/mobile-tags-thumb.png" alt="">
     </a>
   </li>
+  <li>
+    <a href="/img/screenshots/mobile-share-others.png" class="inherit screenshot-link">
+      <img class="thumbnail" src="/img/screenshots/mobile-share-others-thumb.png" alt="">
+    </a>
+  </li>
 </ul>
 <ul class="media-grid">
   <li>
