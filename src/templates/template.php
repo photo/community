@@ -44,8 +44,8 @@
           <div class="span2"><a href="/screenshots" class="screenshots">Screenshots</a></div>
           <div class="span2"><a href="/community" class="community">Community</a></div>
           <div class="span2"><a href="/documentation" class="documentation">Documentation</a></div>
-          <div class="span2"><a href="/contribute" class="contribute">Contribute</a></div>
-          <!--<div class="span2 get-started"><a href="/get-started">Get Started</a></div>-->
+          <!--<div class="span2"><a href="/contribute" class="contribute">Contribute</a></div>-->
+          <div class="span2 get-started"><a href="/get-started">Get Started</a></div>
         </div>
       </div>
     </div>
