@@ -58,6 +58,8 @@ class GeneralController extends BaseController
 
   public function getStarted()
   {
+    getRoute()->redirect('https://openphoto.me', 302, true);
+    die();
     $envelope = getApi()->invoke('/get-started.json');
     getTemplate()->display('template.php', $envelope['result']);
   }
