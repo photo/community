@@ -6,7 +6,7 @@
         <li class="second"><a href="/get-started" class="headline-carousel">Free, open and easy to use</a></li>
         <li class="third"><a href="/documentation" class="headline-carousel">Flexible API &amp; apps</a></li>
       </ul>
-      <a href="/get-started" class="get-started">Get started!</a>
+      <a href="https://openphoto.me" class="get-started">Get started!</a>
     </div>
     <div class="span5 message">
       <div class="first span6">
