@@ -45,7 +45,7 @@ Endpoint: /hello.json
 <p>
   The easiest way to create an app and get the OAuth tokens is to browse to your OpenPhoto site and go to <code>/v1/oauth/flow</code>.
   Follow the prompts until you get a success message.
-  Then go to <code>/user/settings</code> and you should see the following parameters:
+  Then go to <code>/manage/apps</code> and you should see the following parameters:
   <ul>
     <li>Consumer Key</li>
     <li>Consumer Secret</li>
