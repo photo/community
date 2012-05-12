@@ -7,16 +7,17 @@
       Select where you'd like to store your photos.
       You can choose Dropbox, personal Amazon S3 bucket or your hard drive.
     </p>
-    <h2>2) You let us scour your photo accounts (optional)</h2>
+    <h2>2) Use our tools to scour your photo accounts (optional)</h2>
     <p>
       You've already uploaded photos to Flickr, Picasa or Facebook.
-      Let us go find them and store them into a central spot.
+      Let us go find them and store them into a central spot. 
+      Requires some technical know how but we're working on making it easy for everyone.
     </p>
     <h2>3) Relax, organize and enjoy your photos</h2>
     <p>
       Take a sigh of relief knowing that all of your photos are in one place, always backed up and available on your laptop and in your pocket.
     </p>
-    <a href="/get-started" class="btn primary">Get Started</a>
+    <a href="https://openphoto.me" class="btn primary" rel="external">Get Started</a>
   </div>
   <div class="span7">
     <img src="/img/collage.png">

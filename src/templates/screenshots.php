@@ -1,7 +1,7 @@
 <h1>Screenshots of OpenPhoto</h1>
 
 <p>
-  We've put blood and sweat into helping OpenPhoto make your photos look beautiful. If you like what you see, then <a href="/get-started" class="btn primary">Get Started</a>
+  We've put blood and sweat into helping OpenPhoto make your photos look beautiful. If you like what you see, then <a href="https://openphoto.me" class="btn primary" class="external">Get Started</a>
 </p>
 
 <h2>OpenPhoto on your laptop</h2>

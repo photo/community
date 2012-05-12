@@ -21,10 +21,11 @@
   <hr>
   <h2>Contributors</h2>
   <ul class="media-grid">
-    <li class="span4"><img src="http://www.gravatar.com/avatar/f5e79e18f282e5b0dc9144b9e7c72299?size=150"><div>Ali Sabet</div><div class="footnote"><a href="https://twitter.com/sabet" class="plain" target="_blank" rel="external">@sabet</a></div></li>
-    <li class="span4"><img src="http://www.gravatar.com/avatar/eae2c6bacf740b6c29972b75ca4a0613?size=150"><div>John Fabrizio</div><div class="footnote"><a href="https://twitter.com/john_fabrizio" class="plain" target="_blank" rel="external">@john_fabrizio</a></div></li>
-    <li class="span4"><img src="http://www.gravatar.com/avatar/8b404f4357fc92788c5172f69a2d4e99?size=150"><div>Michael Fitzpatrick-Ruth</div><div class="footnote"><a href="https://twitter.com/alpha1beta" class="plain" target="_blank" rel="external">@alpha1beta</a></div></li>
-    <li class="span4"><img src="http://www.gravatar.com/avatar/03c8b79234edddcb5dff723ee163e490?size=150"><div>Preet Jassi</div><div class="footnote"><a href="https://twitter.com/erudianart" class="plain" target="_blank" rel="external">@erudianart</a></div></li>
+    <li class="span3"><img src="http://www.gravatar.com/avatar/f5e79e18f282e5b0dc9144b9e7c72299?size=125"><div>Ali Sabet</div><div class="footnote"><a href="https://twitter.com/sabet" class="plain" target="_blank" rel="external">@sabet</a></div></li>
+    <li class="span3"><img src="http://www.gravatar.com/avatar/450396ffa9a30408e6d56c9073a8dd12?size=125"><div>Florian Menevis</div><div class="footnote"><a href="https://twitter.com/floriannow" class="plain" target="_blank" rel="external">@floriannow</a></div></li>
+    <li class="span3"><img src="http://www.gravatar.com/avatar/eae2c6bacf740b6c29972b75ca4a0613?size=125"><div>John Fabrizio</div><div class="footnote"><a href="https://twitter.com/john_fabrizio" class="plain" target="_blank" rel="external">@john_fabrizio</a></div></li>
+    <li class="span3"><img src="http://www.gravatar.com/avatar/8b404f4357fc92788c5172f69a2d4e99?size=125"><div>Michael Fitzpatrick-Ruth</div><div class="footnote"><a href="https://twitter.com/alpha1beta" class="plain" target="_blank" rel="external">@alpha1beta</a></div></li>
+    <li class="span3"><img src="http://www.gravatar.com/avatar/03c8b79234edddcb5dff723ee163e490?size=125"><div>Preet Jassi</div><div class="footnote"><a href="https://twitter.com/erudianart" class="plain" target="_blank" rel="external">@erudianart</a></div></li>
   </ul>
   <hr>
   <h2>Kickstarter pledgers</h2>

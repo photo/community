@@ -6,7 +6,7 @@
         <li class="second"><a href="/get-started" class="headline-carousel">Free, open and easy to use</a></li>
         <li class="third"><a href="/documentation" class="headline-carousel">Flexible API &amp; apps</a></li>
       </ul>
-      <a href="/get-started" class="https://openphoto.me">Get started!</a>
+      <a href="https://openphoto.me" class="get-started" rel="external">Get started!</a>
     </div>
     <div class="span5 message">
       <div class="first span6">
@@ -70,10 +70,11 @@
     <div>
       <h2>Mobile apps</h2>
       <p>
-        OpenPhoto apps will soon be available for both iOS and Android - giving you the power to share and upload photos from wherever you are, anytime!
+        OpenPhoto for iPhone is available for free.
       </p>
+      <a href="http://itunes.com/apps/theopenphotoapp" rel="external"><img src="/img/app-store.png"></a>
       <p>
-        Stay tuned! Mobile apps for iPhone and Android are coming soon!
+        Stay tuned! Our Android app is coming soon.
       </p>
     </div>
   </div>
