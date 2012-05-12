@@ -31,16 +31,16 @@
   </div>
 </div>
 <div class="row" id="secondary">
-  <div class="span-one-third social">
+  <div class="span-one-third">
     <div>
-      <h2>A growing community</h2>
-      <ul class="media-grid unstyled themes">
-        <li class="span1"><a href="https://twitter.com/openphoto" target="_blank" rel="external"><img src="/img/icon-tw.png"></a></li>
-        <li class="span1"><a href="http://www.facebook.com/OpenPhoto" target="_blank" rel="external"><img src="/img/icon-fb.png"></a></li>
-        <li class="span1"><a href="https://github.com/openphoto/frontend" target="_blank" rel="external"><img src="/img/icon-gh.png"></a></li>
-        <li class="span1"><a href="http://www.youtube.com/user/OpenPhotoProject" target="_blank" rel="external"><img src="/img/icon-yt.png"></a></li>
-      </ul>
-      <?php echo $twitterStatus; ?>
+      <h2>Mobile apps</h2>
+      <p>
+        OpenPhoto for iPhone is available for free.
+      </p>
+      <a href="http://itunes.com/apps/theopenphotoapp" rel="external"><img src="/img/app-store.png"></a>
+      <p>
+        Stay tuned! Our Android app is coming soon.
+      </p>
     </div>
   </div>
   <div class="span-one-third">
@@ -66,16 +66,16 @@
   </div>
 </div>
 <div class="row" id="ternary">
-  <div class="span-one-third">
+  <div class="span-one-third social">
     <div>
-      <h2>Mobile apps</h2>
-      <p>
-        OpenPhoto for iPhone is available for free.
-      </p>
-      <a href="http://itunes.com/apps/theopenphotoapp" rel="external"><img src="/img/app-store.png"></a>
-      <p>
-        Stay tuned! Our Android app is coming soon.
-      </p>
+      <h2>A growing community</h2>
+      <ul class="media-grid unstyled themes">
+        <li class="span1"><a href="https://twitter.com/openphoto" target="_blank" rel="external"><img src="/img/icon-tw.png"></a></li>
+        <li class="span1"><a href="http://www.facebook.com/OpenPhoto" target="_blank" rel="external"><img src="/img/icon-fb.png"></a></li>
+        <li class="span1"><a href="https://github.com/openphoto/frontend" target="_blank" rel="external"><img src="/img/icon-gh.png"></a></li>
+        <li class="span1"><a href="http://www.youtube.com/user/OpenPhotoProject" target="_blank" rel="external"><img src="/img/icon-yt.png"></a></li>
+      </ul>
+      <?php echo $twitterStatus; ?>
     </div>
   </div>
   <div class="span-one-third">
