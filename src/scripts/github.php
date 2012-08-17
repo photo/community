@@ -6,8 +6,8 @@
   date_default_timezone_set('America/Los_Angeles');
 
   $gUrl = 'http://github.com/api/v2/json';
-  $repoUrl = "{$gUrl}/repos/show/openphoto/frontend";
-  $commitsUrl = "{$gUrl}/commits/list/openphoto/frontend/development";
+  $repoUrl = "{$gUrl}/repos/show/photo/frontend";
+  $commitsUrl = "{$gUrl}/commits/list/photo/frontend/development";
   $ch = curl_init($repoUrl);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   $repoJson = curl_exec($ch);

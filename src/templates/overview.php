@@ -106,7 +106,7 @@
     <p>
       We knew there had to be a better way to take, share and archive photos while retaining ownership.
       It didn't seem like anyone else was going to build it so we took it upon ourselves to solve this problem for everyone.
-      The project has been <a href="https://github.com/openphoto/frontend">open source on Github</a> since the first line of code was written because like your photos, OpenPhoto doesn't belong to us.
+      The project has been <a href="https://github.com/photo/frontend">open source on Github</a> since the first line of code was written because like your photos, OpenPhoto doesn't belong to us.
     </p>
   </div>
   <div class="span7 offset1">

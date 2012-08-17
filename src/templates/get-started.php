@@ -35,6 +35,6 @@
 # Run this from the command line as root.
 # As always, view any script before running it ;).
 
-curl https://raw.github.com/openphoto/frontend/master/documentation/guides/InstallationUbuntuApache.sh | /bin/bash</code></pre>
+curl https://raw.github.com/photo/frontend/master/documentation/guides/InstallationUbuntuApache.sh | /bin/bash</code></pre>
 
 </div>

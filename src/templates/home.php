@@ -72,7 +72,7 @@
       <ul class="media-grid unstyled themes">
         <li class="span1"><a href="https://twitter.com/openphoto" target="_blank" rel="external"><img src="/img/icon-tw.png"></a></li>
         <li class="span1"><a href="http://www.facebook.com/OpenPhoto" target="_blank" rel="external"><img src="/img/icon-fb.png"></a></li>
-        <li class="span1"><a href="https://github.com/openphoto/frontend" target="_blank" rel="external"><img src="/img/icon-gh.png"></a></li>
+        <li class="span1"><a href="https://github.com/photo/frontend" target="_blank" rel="external"><img src="/img/icon-gh.png"></a></li>
         <li class="span1"><a href="http://www.youtube.com/user/OpenPhotoProject" target="_blank" rel="external"><img src="/img/icon-yt.png"></a></li>
       </ul>
       <?php echo $twitterStatus; ?>
@@ -97,7 +97,7 @@
           <?php echo $github['info']['watchers']; ?> watchers, <?php echo $github['info']['forks']; ?> clones and <?php echo $github['info']['issues']; ?> open issues
         </div>
       <?php } ?>
-      <a href="https://github.com/openphoto/frontend" target="_blank" rel="external">Git on over to Github <span class="raquo">&raquo;</span></a>
+      <a href="https://github.com/photo/frontend" target="_blank" rel="external">Git on over to Github <span class="raquo">&raquo;</span></a>
     </div>
   </div>
   <div class="span-one-third press">
