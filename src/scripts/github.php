@@ -48,7 +48,7 @@
       'email' => $commit['commit']['author']['email'],
       'time' => $time,
       'timefmt' => $timefmt,
-      'url' => $commit['url']
+      'url' => sprintf('https://github.com/photo/frontend/commit/%s', $commit['sha'])
     );
   }
 
