@@ -87,7 +87,7 @@
             <tr>
               <td><?php echo $commit['timefmt']; ?></td>
               <td><?php echo $commit['name']; ?></td>
-              <td><a href="https://github.com<?php echo $commit['url']; ?>" target="_blank" rel="external" title="<?php echo $commit['message']; ?>"><?php echo $commit['messagefmt']; ?></a></td>
+              <td><a href="<?php echo $commit['url']; ?>" target="_blank" rel="external" title="<?php echo $commit['message']; ?>"><?php echo $commit['messagefmt']; ?></a></td>
             </tr>
           <?php } ?>
         </table>
